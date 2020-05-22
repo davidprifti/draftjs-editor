@@ -1,0 +1,53 @@
+div.DraftEditor-root {
+  width: 780px;
+  height: 1056px;
+  margin:100px auto;
+  padding:130px 96px;
+  font-size: 15px;
+  box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: white;
+  cursor: text;
+  overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+div.DraftEditor-root::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.align-right div {
+    text-align: right;
+}
+.align-center div {
+    text-align: center;
+}
+.align-left div {
+    text-align: left;
+}
+
+.align-justify div {
+    text-align: justify;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(218, 220, 224);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding: 4px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(247, 247, 247);
+    z-index: 1000;
+}
+
+.wrapper>div {
+    padding: 5px 10px;
+}
+
+.draftJsEmojiPlugin__alignmentTool__2mkQr {
+    width: 100px
+}

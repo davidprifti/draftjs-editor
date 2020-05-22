@@ -1,0 +1,10 @@
+.add-image-option {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px;
+    max-height: 150px;
+    overflow-y: scroll;
+}

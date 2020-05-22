@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(247, 247, 247);
+    z-index: 1000;
+    border-top: 1px solid rgb(218, 220, 224);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    display: flex;
+    align-items: center;
+}
+
+.footer-slider {
+    position: fixed;
+    right: 10px;
+    bottom: 7px;
+    z-index: 1001;
+    display: flex;
+}
+
+.footer-word-count {
+    font-size: 10px;
+    margin-left: 10px;
+}

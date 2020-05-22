@@ -1,0 +1,27 @@
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar div {
+    cursor: pointer;
+}
+
+svg {
+    padding: 0 8px;
+    border-right: 1px solid rgb(173, 173, 173);
+    color: rgb(139, 139, 139);
+    pointer-events: none;
+}
+
+.toolbar div:hover {
+    color: rgb(126, 126, 126);
+}
+
+.active {
+    color: rgb(84, 110, 230) !important;
+}
+
+.toolbar:nth-last-child(1) {
+    border-right: none;
+}
