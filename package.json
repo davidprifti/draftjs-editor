@@ -27,7 +27,7 @@
     "draft-js-resizeable-plugin": "^2.0.9",
     "draft-js-video-plugin": "^2.0.2",
     "draftjs-to-html": "^0.9.1",
-    "electron": "^8.2.5",
+    "electron": "^15.5.5",
     "electron-builder": "^22.6.0",
     "electron-is-dev": "^1.2.0",
     "immutable": "^4.0.0-rc.12",
